@@ -5,7 +5,6 @@ type_of_activity = [
     {'type': 'homework', 'time': 1.3},  
     {'type': 'cooking', 'time': 1.3},
     {'type': 'coding', 'time': 2},
-    {'type': 'frands time', 'time': 2},
 ]
 
 activity=(input ("What`s your plan? "))

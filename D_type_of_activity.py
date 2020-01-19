@@ -5,7 +5,6 @@ type_of_activity = {
     'homework': 1.3,  
     'cooking': 1.3,
     'coding': 2,
-    'frands time': 2,
 }
 
 print(f'Рекомендуемое время: {(type_of_activity.get("art", 0))}')
