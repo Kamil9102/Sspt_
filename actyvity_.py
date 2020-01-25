@@ -10,8 +10,9 @@ type_of_activity = {
 
 while True:
     user_say = input('Какие планы: ')
-    if user_say == 'спорт':
-        print(f'Рекомендуемое время мероприятия: {(type_of_activity(user_say), 0)}')
+    if user_say == 'прогулка':
+        print(f'Рекомендуемое время: {(type_of_activity.get(user_say))}')
         break
     else:
         print('Укажите необходимое время планируемого мероприятия {}'.format(user_say))
+    user_say = input('Планируемое время: ')
