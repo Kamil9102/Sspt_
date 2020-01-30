@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <h1></h1>
+    </body>
+</html>
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>{{ page_title }}</title>
+  </head>
+  <body>
+    <div class="container">
+    <h1>{{ activity }}</h1>
+    <form>
+      <div class="form-group"> 
+      <span class="input-group-addon">Какие планы?</span>
+        <select name='Какие планы?' class="selectpicker show-menu-arrow form-control" multiple data-max-options="2" data-live-search="true">
+            <option value="-">-</option>
+            <option value="Домашние дела">домашние дела</option>
+            <option value="Дорога до работы">дорога до работы</option>
+            <option value="Кодинг">кодинг</option>
+            <option value="Приготовление еды">приготовление еды</option>
+            <option value="Прогулка">прогулка</option>
+            <option value="Спорт">спорт</option>
+        </select>
+        <span class="input-group-btn">
+          <button class="btn btn-primary mb-2" type="submit">Вношу в план</button>
+        </span>
+      </div>
+      <div class="form-group"> 
+        <span class="input-group-addon">Рекомендуемое время</span>
+          <select name='Рекомендуемое время' class="selectpicker show-menu-arrow form-control" multiple data-max-options="2" data-live-search="true">
+              <option value="-">-</option>
+              <option value="1:00:00">1:00:00</option>
+              <option value="1:10:00">1:10:00</option>
+              <option value="1:20:00">1:20:00</option>
+              <option value="1:30:00">1:30:00</option>
+              <option value="1:40:00">1:40:00</option>
+              <option value="1:50:00">1:50:00</option>
+              <option value="2:00:00">2:00:00</option>
+          </select>
+          <span class="input-group-btn">
+            <button class="btn btn-primary mb-2" type="submit">Делаю лучший выбор</button>
+          </span>
+        </div>
+      </form>
+    </form>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
