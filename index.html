@@ -1,15 +1,5 @@
-<html>
-    <head>
-        <title></title>
-    </head>
-    <body>
-        <h1></h1>
-    </body>
-</html>
-
-
 <!doctype html>
-<html lang="en">
+<html lang="ru">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -23,7 +13,7 @@
   <body>
     <div class="container">
     <h1>{{ activity }}</h1>
-    <form>
+    <form method="get" action="/test">
       <div class="form-group"> 
       <span class="input-group-addon">Какие планы?</span>
         <select name='Какие планы?' class="selectpicker show-menu-arrow form-control" multiple data-max-options="2" data-live-search="true">
@@ -35,9 +25,6 @@
             <option value="Прогулка">прогулка</option>
             <option value="Спорт">спорт</option>
         </select>
-        <span class="input-group-btn">
-          <button class="btn btn-primary mb-2" type="submit">Вношу в план</button>
-        </span>
       </div>
       <div class="form-group"> 
         <span class="input-group-addon">Рекомендуемое время</span>
