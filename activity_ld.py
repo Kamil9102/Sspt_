@@ -18,10 +18,17 @@ def find_in_activities(activity):
         if dict.get('activity')==activity:
             print('Рекомендуемое время мероприятия {}'.format(activity))
             return dict.get("time")
+
+
     print('Укажите необходимое время ч:м:с планируемого мероприятия {}'.format(activity))
     time = input()
+    type_of_activity.append({'activity': activity ,'time': time})
+    return time
+
 activity = input()
+
 print(find_in_activities(activity))
 
-type_of_activity.append({'activity': activity ,'time': time})
+#Для проверки
+print("---")
 print(type_of_activity)
